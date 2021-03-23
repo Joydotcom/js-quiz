@@ -1,7 +1,7 @@
 //dom variables
-// var questionsEl = document.getElementById("questions");
-// var questionTitleEl = document.getElementById("question-title");
-// var questionAnswerChoicesEl = document.getElementById("answer-choices");
+var questionsEl = document.getElementById("questions");
+var questionTitleEl = document.getElementById("question-title");
+var questionAnswerChoicesEl = document.getElementById("answer-choices");
 
 // javascript variables
 var buttonOne =document.getElementById("choices".children[1]);
@@ -10,8 +10,12 @@ var buttonThree =document.getElementById("choices".children[3]);
 var buttonFour =document.getElementById("choices".children[4]);
 var buttons = document.querySelectorAll("button");
 
-
-const myQuestions = [
+function displayQuestion(){
+    var questionEl = document.createElement("h2");
+    questionsEl.textContent = arrayOfQuestions[0];
+    questionContainer.append(questionsEl)
+}
+var quesntionsEl = [
         {
           question: "Commonly used data types DO NOT include :",
           answers: {
