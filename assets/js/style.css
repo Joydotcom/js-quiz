@@ -1,8 +1,8 @@
 header {
   text-align: center;
-  background-color: rgb(74, 145, 185);
+  background-color: rgba(218, 176, 115, 0.719);
   font-size: 28px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,14 +13,18 @@ header {
 
 button {
   color: white;
-  background-color: blue;
+  background-color: rgb(107, 74, 145);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   justify-content: center;
   align-items: center;
-  height: 100px;
-  border: 10px solid rgb(127, 76, 185);
+  height: 70px;
+  
 }
+
+ h2 {
+     color: rgba(161, 119, 54, 0.795);
+ }
 
 .timer {
     font-size: 18px;
@@ -34,5 +38,15 @@ button {
     justify-content: center;
     align-items: center;
     height: 200px;
-    border: 3px solid green; 
+
+  }
+
+  .choices {
+        border: 5px solid indigo;
+      margin: auto;
+      width: 200px;
+  }
+
+  .options {
+    
   }

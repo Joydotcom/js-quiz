@@ -74,10 +74,14 @@ function handleStart() {
   startEl.style.display = "none";
   quizEl.style.display = "block";
 
-  setInterval(function () {
+  var timerInterval = setInterval(function () {
     timer--;
     timerEl.innerHTML = timer;
+    if(timer===0){
+      clearInterval(timerInterval)
+    }
   }, 1000);
+  
   
   }
 
