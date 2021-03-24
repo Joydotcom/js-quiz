@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./assets/js/style.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <header>
+<div>
+        <h1>JavaScript Quiz!</h1>
+    </div>
+  </header>
   <body>
-    <h1>JavaScript Quiz!</h1>
     <div class="scores">_</div>
     <div class="timer" id="timer">100</div>
-    <button id="start">start quiz</button>
-    <main id="quiz" style="display:none">
+
+    
+    <button id="start" type="button" class="btn btn-primary">START QUIZ</button>
+    <main id="quiz" style="display: none">
       <h2 id="question">THIS IS THE FIRST QUESTION</h2>
 
-      <div id="choices" class="choices">
-
-      </div>
+    <div id="choices" class="choices"></div>
+   
+      
+    </div>
+  </div>
+     
     </main>
     <div id="end-screen" class="hide">_</div>
     <div id="feedback" class="feedback hide">_</div>
-    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
+
+
