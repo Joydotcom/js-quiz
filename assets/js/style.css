@@ -1,3 +1,7 @@
+:root {
+    background-color: tan;
+}
+
 header {
   text-align: center;
   background-color: rgba(218, 176, 115, 0.719);
@@ -6,13 +10,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 150px;
   border: 10px solid rgba(107, 74, 145, 0.747);
   color: rgb(107, 74, 145);
 }
 
 button {
-  color: white;
+  color: teal;
   background-color: rgb(107, 74, 145);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
@@ -27,10 +31,11 @@ button {
  }
 
 .timer {
-    font-size: 18px;
+    font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    color: crimson;
+    color: rgb(255, 255, 255);
+    
 }
 
 .center{
@@ -38,15 +43,15 @@ button {
     justify-content: center;
     align-items: center;
     height: 200px;
+    
 
   }
 
   .choices {
-        border: 5px solid indigo;
+        /* border: 5px solid indigo; */
       margin: auto;
       width: 200px;
   }
-
-  .options {
-    
-  }
+#timer {
+    padding-top: 400px;
+}
