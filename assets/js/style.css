@@ -1,6 +1,3 @@
-:root {
-    background-color: tan;
-}
 
 header {
   text-align: center;
@@ -28,6 +25,7 @@ button {
 
  h2 {
      color: rgba(161, 119, 54, 0.795);
+     font-size: 20px;   
  }
 
 .timer {
@@ -52,6 +50,4 @@ button {
       margin: auto;
       width: 200px;
   }
-#timer {
-    padding-top: 400px;
-}
+

@@ -1,1 +1,2 @@
-# js-quiz
+# DESCRIPTION 
+This is a JavaScript Quiz
